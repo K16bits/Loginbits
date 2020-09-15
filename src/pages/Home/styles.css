@@ -34,3 +34,10 @@ form{
     margin-left: 20px;
 }
 
+.container a{
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px 8px;
+    border: black 1.5px solid;
+}
