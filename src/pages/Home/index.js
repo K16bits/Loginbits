@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./styles.css"
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
           ></input>
         </div>
         <button type='submit' onChange={handleRegister}>Start</button>
-        <button>Select</button>
+        <Link to="/profile">Select</Link>
       </form>
     </div>
   );
