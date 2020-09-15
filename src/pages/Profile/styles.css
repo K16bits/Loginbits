@@ -1,0 +1,41 @@
+.container-profile{
+    box-sizing: border-box;
+    border: black 4px solid;
+    box-shadow: black 4px 4px;
+    margin: 0px auto;
+    margin-top: 80px;
+    height: 360px;
+    width: 500px;
+    text-align: center;
+}
+
+.container-profile .profile{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.container-profile h1{
+    padding: 10px;
+}
+
+.container-profile .profile .profile-itens span{
+    margin-left: 20px;
+    font-size: 15px;
+    display: block;
+    margin-top: 2x;
+    padding: 10px;
+}
+
+.container-profile .profile a{
+    margin-left: 70%;
+    border: 1px solid red;
+}
+
+.container-profile .btn{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px red solid;
+    border-radius: 5px 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
