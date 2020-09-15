@@ -31,7 +31,7 @@ export default function Home() {
           ></input>
         </div>
         <button type='submit' onChange={handleRegister}>Start</button>
-        <Link to="/profile">Select</Link>
+        <Link to="/subscribe">Select</Link>
       </form>
     </div>
   );
