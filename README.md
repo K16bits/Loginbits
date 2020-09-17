@@ -16,9 +16,13 @@ npm install<br>
 npm start<br>
 <br>
 
-## Veja os dados sendo inserido no Banco
-  - 
+## Inserindo Dados ou listando no insomnia 
+  - Adicionar perfil:
+    - Preencher o subscribe  ou mandar um jSON com os dados [nome,idade,empresa,funcao] na rota http://localhost:3333/send  (método POST)
+  - Ver os perfis no insomnia:
+    - http://localhost:3333/receive (método GET)                                 
 
 ![alt home](https://github.com/K16bits/Loginbits/blob/master/screens/home.PNG)
 ![alt subscribe](https://github.com/K16bits/Loginbits/blob/master/screens/subscribe.PNG)
 ![alt profile](https://github.com/K16bits/Loginbits/blob/master/screens/profile.PNG)
+
