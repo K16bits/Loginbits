@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
+import api from '../../services/api'
 import "./styles.css"
 
 export default function Subscribe(){
@@ -17,6 +18,14 @@ export default function Subscribe(){
             empresa,
             funcao
         }
+
+        try{
+            const response = await api.post("send",data);
+            console.log("enviou");
+        }catch(error){
+            alert("Falha no envio");
+        }
+        
         console.log(data);
     }
 
