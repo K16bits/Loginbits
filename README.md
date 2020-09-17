@@ -1,5 +1,5 @@
 # Loginbits
-Praticando o Frontend com React
+Praticando o Frontend e Backend com React
 
 - Instalando as dependencies<br>
 npm install<br>
