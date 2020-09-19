@@ -1,5 +1,6 @@
 # Loginbits
-Praticando o Frontend e Backend com React
+Praticando o Frontend e Backend com React<br>
+Foi utilizado Knex com banco de dados 
 
 ## Backend
 - Entre na pasta backend e execute:<br>
