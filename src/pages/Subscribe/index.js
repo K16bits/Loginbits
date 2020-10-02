@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link,useHistory } from 'react-router-dom';
 import api from '../../services/api'
 import "./styles.css"
 
 export default function Subscribe(){
+    const history = useHistory();
     const [nome,Setnome] = useState("");
     const [idade,Setidade] = useState("");
     const [empresa,Setempresa] = useState("");
@@ -22,6 +23,8 @@ export default function Subscribe(){
         try{
             const response = await api.post("send",data);
             console.log("enviou");
+            alert("Seu cadastro foi concluído");
+            history.push("/");
         }catch(error){
             alert("Falha no envio");
         }
